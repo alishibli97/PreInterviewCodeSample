@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ali.pre_interviewcodesample.MainActivity"
+    android:background="#228B22"
+    >
+
+    <TextView
+        android:id="@+id/deck_cards"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The number of cards remaining in the deck  is:"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        />
+
+    <TextView
+        android:id="@+id/num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        />
+
+    <Button
+        android:id="@+id/shuffle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shuffle"
+        android:textAllCaps="false"
+        android:layout_marginLeft="20dp"
+        android:layout_centerVertical="true"
+        />
+
+    <Button
+        android:id="@+id/get_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get one card"
+        android:textAllCaps="false"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_centerVertical="true"
+        />
+
+    <Button
+        android:id="@+id/user_cards"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check your cards"
+        android:textAllCaps="false"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Button
+        android:id="@+id/rem_cards"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check remaining cards"
+        android:textAllCaps="false"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        />
+
+</RelativeLayout>
